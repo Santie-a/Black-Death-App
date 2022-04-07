@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    padding: 30px;
+}
+
+.header, .main--header, .main--answers {
+    background: white;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.15);
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.header--title {
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.header--text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.main--header {
+    margin-top: 40px; 
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.main--answers {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.main--button {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: filter .2s ease-in-out;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.15);
+}
+
+.main--button:hover {
+    filter: brightness(60%)
+}
